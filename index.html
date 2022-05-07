@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.8/aframe/build/aframe-ar.js"></script>
+    <body style="margin: 0px; overflow: hidden;">
+        <a-scene webx="requiredFeatures: hit-test, local-floor;
+        optionalFeatures: dom-overlay, unbounded;
+        overlayElement:#overlay;">
+
+	<a-scene>
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/GeydarovaEsmira/markers/main/pattern-%D0%9C%D0%B0%D1%80%D1%96%D0%BE.patt'>
+        <a-box width="5" height="3" depth="15" position="1.874 1.565 -3.835" material="src: https://live.staticflickr.com/65535/52055244372_7fdbefe484_b.jpg" rotation="0 -45 0"></a-box>
+        <a-box width="5.5" height="1" depth="4" position="5.958 3.565 -7.766" rotation="0 -45 0" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-box>
+
+        <a-cylinder material="src:https://live.staticflickr.com/65535/52055235527_4dd46db502_b.jpg" height="8" radius="2.3" position="-3.381 4.061 1.409"></a-cylinder>
+        <a-cylinder height="1.6" radius="2.4" position="-3.381 7.675 1.409" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-cylinder>
+        <a-cylinder height="1.4" radius="2.5" position="-3.381 8.005 1.409" material="src: https://live.staticflickr.com/65535/52055244372_7fdbefe484_b.jpg"></a-cylinder>
+        
+        <a-cylinder height="1.2" radius="2.6" position="-3.381 8.339 1.409" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52056326373_7d9c94284e_b.jpg" height="2.8" radius-bottom="2.6" radius-top="0.05" rotation="0 -180 0" position="-3.381 10.339 1.409"></a-cone>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056326373_7d9c94284e_b.jpg" height="3.7" radius="0.1" position="-3.381 12.339 1.409"></a-cylinder>
+
+
+        <a-entity>
+            <a-plane height=1.5 width=5 position="-0.77 11 1.409" 
+            animation__2="property: position; to: -0.77 13 1.409; dur: 3000; easing: linear; loop: 1"
+            ></a-plane>
+            <a-text value="Thank You Mario But Our" position="-3 11.3 1.409" color="black" width="8"
+            animation__2="property: position; to: -3 13.3 1.409; dur: 3000; easing: linear; loop: 1"></a-text>
+            <a-text value="Princess Is in Another Castle" position="-3 10.6 1.409" color="black" width="8"
+            animation__2="property: position; to: -3 12.6 1.409; dur: 3000; easing: linear; loop: 1"></a-text>
+        </a-entity>
+
+
+
+        <a-cylinder height="2.5" radius="0.3" position="5.688 4.203 -3.737" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-cylinder>
+        <a-cylinder height="0.5" radius="0.4" position="5.688 4.078 -3.737" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-cylinder>
+
+
+        <a-box width="5.2" height="4.5" depth="5.2" position="2.783 2.324 -4.753" material="src:https://live.staticflickr.com/65535/52056326373_7d9c94284e_b.jpg" rotation="0 -45 0"></a-box>
+        <a-box width="5.5" height="1" depth="5.5" position="2.783 4.324 -4.753" rotation="0 -45 0" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg"></a-box>
+
+        <a-box width="4.98" height="5" depth="4.98" position="-1.54 4.065 -0.43" rotation="0 -45 0" material="src:https://live.staticflickr.com/65535/52056326373_7d9c94284e_b.jpg"></a-box>
+        <a-box width="5.5" height="1" depth="5.5" position="-1.54 6.068 -0.43" material="src:https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" rotation="0 -45 0"></a-box>
+        
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="3.5" radius="0.3" position="-2.729 8.645 3.842"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="1" radius="0.4" position="-2.729 9.184 3.824"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="-2.726 6.396 3.85"></a-cone>
+        
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="3.5" radius="0.3" position="-4.204 8.645 -0.990"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="1" radius="0.4" position="-4.204 9.184 -0.990"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="-4.204 6.396 -0.990"></a-cone>
+        
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="3.5" radius="0.3" position="-0.929 8.645 1.781"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="1" radius="0.4" position="-0.929 9.184 1.781"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="-0.929 6.396 1.781"></a-cone>
+
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="3.5" radius="0.3" position="-5.854 8.645 1.383"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="1" radius="0.4" position="-5.854 9.184 1.383"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="-5.854 6.396 1.383"></a-cone>
+
+
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius="0.3" position="-0.206 4.203 -5.681"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="0.5" radius="0.4" position="-0.206 4.078 -5.681"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="1.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="-0.206 2.364 -5.681"></a-cone>
+        
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius="0.3" position="3.696 4.203 -1.770"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="0.5" radius="0.4" position="3.696 4.078 -1.770"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="1.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="3.605 2.364 -1.841"></a-cone>
+        
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius="0.3" position="1.768 4.203 -7.607"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="0.5" radius="0.4" position="1.768 4.078 -7.607"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="1.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="1.768 2.364 -7.607"></a-cone>
+
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="2.5" radius="0.3" position="5.688 4.203 -3.737"></a-cylinder>
+        <a-cylinder material=" src: https://live.staticflickr.com/65535/52056541539_0b4e879a29_b.jpg" height="0.5" radius="0.4" position="5.688 4.078 -3.737"></a-cylinder>
+        <a-cone material=" src: https://live.staticflickr.com/65535/52055282767_de37f287fc.jpg" height="1.5" radius-bottom="0.05" radius-top="0.3" rotation="0 -180 0" position="5.616 2.364 -3.798"></a-cone>
+	
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+</html>
